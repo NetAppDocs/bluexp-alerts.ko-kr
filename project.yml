@@ -1,0 +1,46 @@
+---
+settings:
+  name: BlueXP alerts
+  platform: cloud
+  internal:
+    pdf_enabled: true
+    termcheck_enabled: true
+    lipi_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: BlueXP  경고 문서
+    url: "/index.html"
+  - title: 릴리스 정보
+    url: "/whats-new.html"
+  - title: 시작하십시오
+    entries:
+    - title: BlueXP  알림에 대해 자세히 알아봅니다
+      url: "/concept-alerts.html"
+    - title: 필수 구성 요소
+      url: "/alerts-start-prerequisites.html"
+    - title: 빠른 시작
+      url: "/alerts-start-quick-start.html"
+    - title: BlueXP  알림을 설정합니다
+      url: "/alerts-start-setup.html"
+    - title: BlueXP  알림에 액세스합니다
+      url: "/alerts-start-login.html"
+  - title: BlueXP  알림을 사용합니다
+    entries:
+    - title: BlueXP  알림 개요 사용
+      url: "/alerts-use-overview.html"
+    - title: ONTAP 스토리지의 잠재적 위험 보기
+      url: "/alerts-use-dashboard.html"
+    - title: 스토리지 환경에서 알림을 봅니다
+      url: "/alerts-use-alerts.html"
+  - title: FAQ 를 참조하십시오
+    url: "/alerts-faq.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: bluexp-family

@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: concept-alerts.html 
+keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, bluexp alerts 
+summary: BlueXP  경고는 용량, 성능, 가용성 및 보안과 관련하여 NetApp ONTAP 환경의 문제 또는 잠재적 위험을 볼 수 있는 서비스입니다. 서비스를 사용하면 NetApp System Manager를 사용하여 세부 정보를 상세히 살펴볼 수 있습니다. 
+---
+= BlueXP  알림에 대해 자세히 알아봅니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP  경고는 표준 BlueXP  커넥터를 사용하여 NetApp 온프레미스 ONTAP 환경의 문제나 잠재적인 위험을 볼 수 있도록 지원하는 서비스입니다. 서비스를 사용하면 NetApp System Manager를 사용하여 세부 정보를 상세히 살펴볼 수 있습니다.
+
+
+
+== BlueXP  알림으로 수행할 수 있는 작업
+
+BlueXP  경고 서비스를 통해 ONTAP 스토리지 환경의 위험 또는 잠재적 위험에 대한 정보를 지속적으로 얻을 수 있습니다. 서비스에 일부 비 EMS 경고와 일부 EMS 경고가 표시됩니다. BlueXP  알림 서비스는 다음과 같은 심각도 및 영향 영역에 대한 정보를 제공합니다.
+
+* * Severities *: Critical, Warning, Informational
+* * 영향 영역 *: 용량, 성능, 보호, 가용성, 보안, 구성
+
+
+
+TIP: BlueXP  UI의 오른쪽 상단에 있는 알림 옵션은 BlueXP 가 수행하는 작업의 상태를 모니터링하여 해결해야 하는 문제를 식별할 수 있도록 합니다. 이러한 알림을 이메일로 보낼 수 있습니다. 알림 옵션에는 BlueXP  알림 서비스의 알림이 포함되지 않습니다.
+
+
+
+== BlueXP  경고 사용의 이점
+
+BlueXP  알림은 다음과 같은 이점을 제공합니다.
+
+* 클러스터 전체의 ONTAP 스토리지에 대한 알림을 받습니다.
+* 다른 서비스에 사용하는 것과 동일한 BlueXP  UI에서 알림을 봅니다.
+* ONTAP 클러스터에 대한 알림 세부 정보 -- BlueXP  알림에서 시작하여 NetApp System Manager에서 세부 정보를 확인합니다.
+
+
+
+
+== 비용
+
+전체 버전의 BlueXP  알림은 NetApp ONTAP 라이센스와 함께 사용할 수 있습니다.
+
+
+
+== 라이센싱
+
+BlueXP  알림 서비스에는 NetApp ONTAP 9 .10 이상의 라이센스가 필요합니다.
+
+이 서비스에 대한 평가판 라이센스가 필요하지 않습니다.
+
+이 서비스는 BlueXP  표준(공용) 모드에서만 구축할 수 있습니다. 자세한 내용은 을 참조하십시오 link:alerts-start-licenses.html["라이센스를 설정합니다"].
+
+
+
+== BlueXP  알림의 작동 방식
+
+BlueXP  알림 서비스는 BlueXP 의 핵심 구성 요소입니다. BlueXP  경고 서비스는 ONTAP 클러스터를 모니터링하고 ONTAP로부터 경고 데이터를 수신합니다.
+
+BlueXP  경고는 BlueXP  SaaS 환경에서만 사용할 수 있습니다. 로컬 커넥터 UI에서는 사용할 수 없습니다.
+
+
+
+== 지원되는 작업 환경 및 데이터 소스
+
+BlueXP  경고를 사용하여 다음 작업 환경 및 데이터 소스의 문제를 확인합니다.
+
+* 지원되는 작업 환경 *
+
+온프레미스 ONTAP NAS 또는 SAN 작업 환경이 지원됩니다.
+
+현재 Cloud Volumes ONTAP 작업 환경은 지원되지 않습니다.
+
+* 지원되는 데이터 소스 *
+
+이 서비스는 ONTAP에서 발생하는 특정 이벤트에 대한 알림을 제공합니다. EMS 및 메트릭 기반 알림의 조합입니다.

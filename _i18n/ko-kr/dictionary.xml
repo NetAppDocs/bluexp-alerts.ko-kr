@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="2b5bdeba5f79f2b3abb646ff6117409f" category="summary">이 BlueXP  경고 FAQ는 질문에 대한 빠른 답변을 찾는 경우에 도움이 될 수 있습니다.</block>
+  <block id="32b879eb81c5fec76c0916feebd3fb10" category="doc">BlueXP  경고에 대한 FAQ(자주 묻는 질문</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="paragraph">이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다.</block>
+  <block id="a8c8575084e78dec1feef2185d42ace0" category="section-title">BlueXP  알림에 액세스합니다</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="942a771213d3b59ba27960f61d97b1ac" category="inline-link"><block ref="942a771213d3b59ba27960f61d97b1ac" category="inline-link-rx"></block></block>
+  <block id="55ef79a06a7e7fe64a8029a2b1878338" category="paragraph">* BlueXP  경고 URL은 무엇입니까? * URL의 경우 브라우저에 다음을 입력하여 BlueXP  콘솔에 액세스합니다.<block ref="6db7b50bf17b27cbede9f07c4fbc973e" category="inline-link-rx"></block></block>
+  <block id="8683b05c037dd1db3cf2bfe405ef7dcb" category="paragraph">* BlueXP  알림을 사용하려면 라이센스가 필요합니까? *</block>
+  <block id="26f898e97d05308ed5ee96e521f200ba" category="paragraph">BlueXP  알림 서비스에는 NetApp ONTAP 9 .10 이상의 라이센스가 필요합니다. BlueXP  디지털 지갑에 라이센스를 입력할 필요가 없습니다.</block>
+  <block id="81bff80842530f7549de75ff1e776d13" category="paragraph">이 서비스에 대한 평가판 라이센스가 필요하지 않습니다.</block>
+  <block id="f9507ad136d62c7581e6158c4b397052" category="paragraph">* BlueXP  알림을 어떻게 활성화합니까? * BlueXP  알림은 활성화할 필요가 없습니다. 경고 옵션은 BlueXP  왼쪽 탐색에서 자동으로 활성화됩니다.</block>
+  <block id="31a9c7b2fd1481624edd9cc8c9bc24bf" category="paragraph">BlueXP  커넥터를 사용할 때 서비스에 적합한 기능이 포함되어 있습니다.</block>
+  <block id="5af501fce9e9f8ae3c9924c77cc1af73" category="paragraph">** BlueXP  알림은 표준, 제한 및 개인 모드에서 사용할 수 있습니까?** 이 서비스는 BlueXP  표준(공개)으로만 구축할 수 있습니다.</block>
+  <block id="2579d10862aa7770a64b058fb84ce858" category="inline-link">BlueXP 배포 모드</block>
+  <block id="d29231e4316da436d079d40f2271015e" category="paragraph">모든 BlueXP  서비스에서 이러한 모드에 대한 설명은 을 참조하십시오<block ref="333027f5702e4d8adf36d6f2355422dc" category="inline-link-rx"></block>.</block>
+  <block id="3c706f4667e0a4dca6f27951b3ca453d" category="paragraph">** 액세스 권한은 어떻게 처리됩니까?** BlueXP  조직 관리자만 BlueXP  경고 서비스를 시작하고 워크로드를 검색할 수 있습니다(리소스 사용을 커밋하는 작업이 포함되므로).</block>
+  <block id="60c41e91fc5f41b53f3be81e8da85258" category="paragraph">로그인한 사용자에게는 해당 BlueXP  조직에서 클러스터 리소스에 대한 액세스 권한에 따라 알림이 표시됩니다.</block>
+  <block id="615c4ec007b617f4839a0e118d53a5d5" category="inline-link">BlueXP  조직에 대해 알아보십시오</block>
+  <block id="b8fc255b1f63ea4373c7f60f6db90a9e" category="paragraph"><block ref="8a700d4c2f8561523950a828b4a06394" category="inline-link-rx"></block>..</block>
+  <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">알림을 봅니다</block>
+  <block id="6cc9a992642ce4690d105ac184a67ee8" category="paragraph">** 알림을 받기 전에 얼마나 기다려야 합니까?**</block>
+  <block id="341e7ceedeb864cd8d795298ba6d763b" category="paragraph">초기 검색은 최대 15분, 초기 검색은 최대 5분 동안 기다립니다. 경고마다 다릅니다.</block>
+  <block id="b1aba4574e3a3dd4e36f1b5a82395732" category="paragraph">**BlueXP  커넥터 없이 직접 모드를 사용하는 ONTAP에 대한 경고가 표시되지 않는 이유는 무엇입니까?*</block>
+  <block id="c1e6cbc15d86cd682e0a70df120f1f40" category="paragraph">BlueXP  경고는 온프레미스 표준 BlueXP  커넥터를 사용해야만 사용할 수 있습니다. 직접 모드를 사용하면 클러스터를 모니터링하지 않으며 경고가 표시되지 않습니다.</block>
+  <block id="e3ff16e21f6082f8d57e23f84439cd04" category="paragraph">** 경고 목록 페이지에서 일부 경고가 사라지는 이유는 무엇입니까?**</block>
+  <block id="2b2c3c30eaf3e78010285ee747d45207" category="paragraph">경고 기능은 일부 경고를 활성 상태로 유지하고 카운터 조건이 충족되거나 기간에 도달한 후에 닫습니다. 경고마다 다릅니다.</block>
+  <block id="e0da34134a1b328f6ccb76d662397ec6" category="paragraph">모든 경고를 보려면 상태 열 필터를 선택하고 닫힘 옵션을 선택합니다.</block>
+  <block id="f39f0edd7fe5e18fbb584c564afa9b8c" category="section-title">정보 표시</block>
+  <block id="f5c72ca5c170c91c777ed385856a260c" category="paragraph">** 어떤 장치 해상도가 가장 좋습니까?** BlueXP  알림에 권장되는 장치 해상도는 1920x1080 이상입니다.</block>
+  <block id="036b094f4c535bf7c0faf82885715824" category="paragraph">** 어떤 브라우저를 사용해야 합니까?** 모든 최신 브라우저가 작동합니다.</block>
+  <block id="0e0b4a7ebda3db1380237e8147a2c519" category="summary">BlueXP 에서 서비스에 액세스하여 BlueXP  알림을 시작하십시오.</block>
+  <block id="3d8d9b14a39d1d1ee6478a1ede0bd425" category="doc">BlueXP  알림에 액세스합니다</block>
+  <block id="1bb4b060b0fad19e3250036e3363e9e4" category="paragraph">NetApp BlueXP 를 사용하여 BlueXP  경고 서비스에 로그인합니다.</block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link">로그인에 대해 자세히 알아보십시오</block>
+  <block id="137f465ff17e307c6d821b8f1d37049b" category="paragraph">BlueXP 에 로그인하려면 NetApp 지원 사이트 자격 증명을 사용하거나 이메일 및 암호를 사용하여 NetApp 클라우드 로그인에 등록할 수 있습니다.<block ref="83012c4a40bb3321733997744c83daa9" category="inline-link-rx"></block>..</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link">BlueXP 콘솔</block>
+  <block id="d2dadcd80abef33f02b8317102f819f0" category="list-text">웹 브라우저를 열고 로 이동합니다<block ref="4d9841a08a6f1c082f5ba73c5d87fcc1" category="inline-link-rx"></block>.</block>
+  <block id="753e3c2055278365db83b605f29d4860" category="paragraph">NetApp BlueXP 로그인 페이지가 나타납니다.</block>
+  <block id="ad84736d27b7f84414783598f4ffd0d9" category="list-text">BlueXP에 로그인합니다.</block>
+  <block id="dcd77b9cd0331a13d8ad657d4882a56c" category="list-text">BlueXP 의 왼쪽 탐색 모음에서 * Monitoring * &gt; * Alerts * 를 선택합니다.</block>
+  <block id="b80c68e1a6cb6ff2b0c33328d4c4aa30" category="paragraph">경고 목록 페이지가 나타납니다.</block>
+  <block id="f4b2cfc6ddef927318d045f16b38d151" category="inline-image-macro">BlueXP  알림 목록 페이지</block>
+  <block id="d87fc992b644e670a1921fe329ede50e" category="paragraph"><block ref="d87fc992b644e670a1921fe329ede50e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="11d306a018db7bbf171fd19cc4154cbf" category="summary">환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대한 지원을 확인하여 BlueXP  경고를 시작합니다.</block>
+  <block id="b2262afa0ab9297bc1b2d6dbf138f82d" category="doc">BlueXP 에서 사전 요구 사항을 경고합니다</block>
+  <block id="3caec570843a9194e2860c2d8539d5ea" category="paragraph">운영 환경의 준비 상태를 확인하여 BlueXP  경고를 시작하십시오.</block>
+  <block id="ba68c7cc1a747cc5439c9eb2bde3ea59" category="paragraph">BlueXP  알림을 사용하려면 다음과 같은 사전 요구 사항이 필요합니다.</block>
+  <block id="de90e07882ac475838e6cf0364872fbb" category="list-text">ONTAP 9 .10 이상. 온-프레미스 작업 환경은 BlueXP  캔버스에서 검색되어야 합니다.</block>
+  <block id="7226a116fcbbcf04521e1a358b285ccb" category="list-text">클러스터 관리자 ONTAP 권한</block>
+  <block id="75694aa3ec9a17968423c0c3f4b2b130" category="paragraph">BlueXP  디지털 지갑에 라이센스를 입력할 필요가 없습니다.</block>
+  <block id="7fc964519860ed011389afb142e2370e" category="list-text">BlueXP의 경우:</block>
+  <block id="4a43854b7fbdafceb4c91e1f94a96618" category="list-text">NetApp 온프레미스 NAS 또는 SAN 스토리지를 사용하는 BlueXP  작업 환경</block>
+  <block id="617601bf744d089a872f17b09e5451b5" category="inline-link">커넥터 구성을 위한 BlueXP 설명서</block>
+  <block id="bd18773fd4ffc37c585826fe78739a24" category="list-text">BlueXP 에서 온-프레미스 영역의 BlueXP  커넥터를 설정해야 합니다. 을<block ref="1e8f43557ce3193941a1e47864603ca9" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="be3f6034d96d78022d89fb9efa3bb363" category="paragraph">클러스터를 BlueXP  커넥터에서 제거하면 해당 클러스터와 관련된 경고가 90일 동안 유지됩니다. 또한 커넥터를 변경하면 알림이 90일 동안 원래 클러스터 및 커넥터와 연결된 상태로 유지됩니다. 원래 커넥터로 돌아가면 해당 경고가 다시 표시됩니다.</block>
+  <block id="d7fed6b49e01473714365140fa2e892c" category="list-text">온프레미스 ONTAP 클러스터에 연결된 활성 커넥터가 하나 이상 있는 BlueXP  조직 모든 소스 및 작업 환경은 동일한 BlueXP  조직에 있어야 합니다.</block>
+  <block id="a66b5f7e17e36a58b03ec77382eb6743" category="list-text">리소스 검색을 위한 조직 관리자 Privileges가 있는 조직의 BlueXP  사용자</block>
+  <block id="801e5ac526198ee67b36c61b75c65eab" category="inline-link">표준 BlueXP 요구사항</block>
+  <block id="5b4e347dbf978618d47c067b87ad3fe2" category="list-text"><block ref="5b4e347dbf978618d47c067b87ad3fe2" category="inline-link-rx"></block></block>
+  <block id="e9b7b72938a53a4398858e7a161efbfb" category="summary">몇 단계로 NetApp BlueXP  알림 서비스를 시작하십시오.</block>
+  <block id="4693ecf07b719f1a075e0e08b806e1d6" category="doc">BlueXP  알림을 빠르게 시작할 수 있습니다</block>
+  <block id="6d3b1e3c658d935abf3a5e7434bd4c1b" category="paragraph">다음은 BlueXP  알림을 시작하는 데 필요한 단계에 대한 개요입니다. 각 단계의 링크를 클릭하면 자세한 내용을 제공하는 페이지로 이동합니다.</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
+  <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 사전 요구 사항을 검토하십시오</block>
+  <block id="d73fd850784e1d8dbda69ab3ca51e7cf" category="inline-link-macro">환경이 이러한 요구 사항을 충족하는지 확인합니다</block>
+  <block id="5d0bd3e6409d405ee17df2011d3575e5" category="paragraph"><block ref="b2b5204beec9643a42fc982599cdc423" category="inline-link-macro-rx"></block>..</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
+  <block id="258a9b1dca773d86d57cbd89bc118944" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 알림 서비스를 설정합니다</block>
+  <block id="bdd0311a659415960a895cb7120b8f36" category="inline-link-macro">BlueXP에서 Connector를 구성합니다</block>
+  <block id="e87e1ad9ec440dcaab1af634489bb79d" category="paragraph"><block ref="e6d5a25732d91601e1ac8c729eb91ea2" category="inline-link-macro-rx"></block>..</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">세 가지</block>
+  <block id="fb35cdd7029fec15aadbdddd879fa161" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 그렇다면</block>
+  <block id="0d5e44db30a371573d3409dc5db80551" category="paragraph">서비스를 설정한 후 수행할 수 있는 작업은 다음과 같습니다.</block>
+  <block id="a68cc2b6c1c2c8b9e9f66b53fa448022" category="inline-link-macro">경고 목록 페이지에서 스토리지 문제와 잠재적 위험을 확인합니다</block>
+  <block id="dd0992661d3a920b16a7c2795b9cd366" category="list-text"><block ref="24e8eb073a02ee555a5d57d98ab7c836" category="inline-link-macro-rx"></block>..</block>
+  <block id="579d60d61ce2f9d71ba59082012dead5" category="inline-link-macro">System Manager에서 경고 세부 정보를 봅니다</block>
+  <block id="d94cf384f933380c78e093e040f609eb" category="list-text"><block ref="3d6f3cd0de5abac441f097288a1f7790" category="inline-link-macro-rx"></block>..</block>
+  <block id="5915cf352c4b3db1b090b435f74ebbf7" category="summary">BlueXP  알림을 사용하려면 몇 가지 단계를 수행하여 설정합니다.</block>
+  <block id="ac042029b29c3082b76187f091b8b233" category="doc">BlueXP  알림을 설정합니다</block>
+  <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">필수 구성 요소</block>
+  <block id="20f8d4df820ee3c6f7d2384adc35406f" category="paragraph">시작하기 전에 검토를 통해 <block ref="b8a12953eaed5434208690571b21dc3b" category="inline-link-macro-rx"></block>사용 중인 환경이 준비되어 있는지 확인하십시오.</block>
+  <block id="26bb95e43b859cab3de780adc1ebf126" category="inline-link">표준 BlueXP 요구사항</block>
+  <block id="fcb6265d7669f5374c0d92fc1cdf5b50" category="paragraph"><block ref="2954ccba2c34ed9319cfb7bdfb096d90" category="inline-link-rx"></block>검토.</block>
+  <block id="36ac020ea992572fe71a4d8e25c3367c" category="section-title">클러스터 리소스에 액세스합니다</block>
+  <block id="039ca501870df985c68b98df5431fa65" category="paragraph">경고를 보려면 로그인한 사용자가 BlueXP  조직에 속해 있어야 하며 클러스터 리소스에 대한 액세스 권한이 있어야 합니다.</block>
+  <block id="a5085066220b6bc77291e8a3ba481c5a" category="section-title">BlueXP Connector를 생성합니다</block>
+  <block id="22c759b21dd96fd9c112561c718a0808" category="paragraph">이 서비스를 사용해 보거나 사용하려면 NetApp 영업 담당자에게 문의해야 합니다. 그런 다음 BlueXP  커넥터를 사용하면 알림 서비스에 대한 적절한 기능이 포함됩니다.</block>
+  <block id="780faaa43a4865ecb4711d9dd7329a52" category="inline-link">BlueXP Connector를 생성하는 방법</block>
+  <block id="41c2dbad4db714d9e8ccd5fdc1897747" category="paragraph">서비스를 사용하기 전에 BlueXP 에서 커넥터를 생성하려면 에 설명된 BlueXP  설명서를 참조하십시오.<block ref="32b465f89042a610ea5ceeabf276817a" category="inline-link-rx"></block></block>
+  <block id="3d6d3177ff7ea69049f4995141770c7f" category="paragraph">커넥터를 설정하고 작업 환경을 추가한 후 초기 검색이 완료될 때까지 15분 정도 기다립니다.</block>
+  <block id="195a0f59ca144ee9fd9cc1a8049876e1" category="summary">BlueXP  경고를 사용하면 ONTAP 스토리지 환경과 연결된 경고를 확인하고 BlueXP  System Manager에 연결된 세부 정보를 드릴다운할 수 있습니다.</block>
+  <block id="ef254d2341e271918241f2d6a1999fa1" category="doc">ONTAP 스토리지 환경의 경고 세부 정보를 봅니다</block>
+  <block id="ecd629c044becad9a5d589bf2ce76f50" category="paragraph">BlueXP  경고를 사용하면 ONTAP 스토리지 환경과 연결된 경고를 확인하고 세부 정보를 파악할 수 있습니다.</block>
+  <block id="9f64c529078a13eebc43993d1ac578d4" category="section-title">알림 세부 정보를 봅니다</block>
+  <block id="dd29728715f5ca672672acc21b977d6a" category="list-text">경고 목록 페이지에서 경고를 선택합니다.</block>
+  <block id="098e423bd0ee32c364dc743fff392233" category="inline-image-macro">경고 세부 정보</block>
+  <block id="6d6b711c0023f5df6869f9738b247408" category="paragraph"><block ref="6d6b711c0023f5df6869f9738b247408" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e343346ee75f85e1816cdd01ca56792d" category="list-text">아래로 스크롤하여 제안된 수정 조치를 찾습니다.</block>
+  <block id="eb8303fe9491419d4ead82bfa9608f89" category="list-text">아래로 스크롤하여 알림이 발생한 개체와 관련된 추가 알림을 찾습니다.</block>
+  <block id="ae1f9cff7e71c809803a6163b385b12c" category="section-title">BlueXP  System Manager에서 클러스터에 대한 세부 정보를 봅니다</block>
+  <block id="35b395a0db37565fc4e5873d0e39269f" category="list-text">알림에서 페이지 맨 위에 있는 클러스터 이름을 클릭합니다.</block>
+  <block id="5bdd3a1d76a98c1ad8436adb2bc5d4df" category="paragraph">이제 BlueXP  System Manager에서 클러스터에 대한 정보를 표시합니다.</block>
+  <block id="44fb0de1beabcbb929ab5a8c7a682a82" category="inline-image-macro">BlueXP  System Manager에서 클러스터 정보를 표시합니다</block>
+  <block id="f4756e753473f1c27ad6091d356f962d" category="paragraph"><block ref="f4756e753473f1c27ad6091d356f962d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e79231cbbb45803a3389e7fb863313c6" category="summary">BlueXP  경고 서비스는 ONTAP 환경의 상태에 대한 정보를 한 눈에 파악할 수 있습니다. 용량이 낮거나 성능이 낮은 ONTAP 클러스터를 빠르게 식별하고, 가용성 범위를 판단하고, 가용성을 결정하고, 보안 위험을 식별할 수 있습니다.</block>
+  <block id="2eb867d8ce3791fb94cfdab8c6ac78a0" category="doc">알림 목록 페이지를 사용하여 ONTAP 스토리지의 잠재적 위험을 확인합니다</block>
+  <block id="6e2e3b48eeb17e8c0e79ae15b55e3fdf" category="paragraph">BlueXP  경고 서비스는 ONTAP 환경의 잠재적인 위험에 대한 간략한 정보를 제공합니다. 용량이 낮거나 성능이 낮은 ONTAP 클러스터를 빠르게 식별하고, 가용성 범위를 판단하고, 가용성을 결정하고, 보안 위험을 식별할 수 있습니다.</block>
+  <block id="48a106dde82734a311781b925e0931ac" category="paragraph">BlueXP  알림 서비스는 다음과 같은 심각도 및 영향 영역에 대한 정보를 제공합니다.</block>
+  <block id="a3463ce74ef6d3d7aafb60fc0726d9ce" category="list-text">* Severities *: Critical, Warning, Informational</block>
+  <block id="1c5882efccfb1ce6046da852a8583eb8" category="list-text">* 영향 영역 *: 용량, 성능, 가용성, 보호, 보안, 구성</block>
+  <block id="ac4b7d569a38793a92acd5f442401804" category="section-title">표시될 수 있는 경고</block>
+  <block id="77fa82b75eba65604d710499da0ee322" category="paragraph">다음은 서비스에 표시되는 몇 가지 경고입니다.</block>
+  <block id="f3a8e5c47b211607abaf68b616a07ed1" category="paragraph">EMS 심각도는 다음과 같은 방법으로 BlueXP  알림 서비스 심각도에 매핑됩니다.</block>
+  <block id="91c761791147d91928659247c271d819" category="cell">EMS 알림 심각도:</block>
+  <block id="3b293abab1ef3ff087b479cd6c0aa5ab" category="cell">BlueXP  알림 심각도:</block>
+  <block id="a06259142ffb0ecbfe14eae4658e10fd" category="cell">경고 또는 긴급</block>
+  <block id="7e85bcb66fb9a809d5ab4f62a8b8bea8" category="cell">중요</block>
+  <block id="cb5e100e5a9a3e7f6d1fd97512215282" category="cell">오류</block>
+  <block id="6adf97f83acf6453d4a6a4b1070f3754" category="cell">없음</block>
+  <block id="28d0edd045e05cf5af64e35ae0c4c6ef" category="cell">낮음</block>
+  <block id="7b83d3f08fa392b79e3f553b585971cd" category="cell">경고</block>
+  <block id="efd2af60c8501931cb9c736b5ad74f65" category="cell">통지</block>
+  <block id="1f48d99cd04299352fb1cfc658d86b35" category="cell">참조용입니다</block>
+  <block id="426b60b96f19689fe0d9002d76f4ecfa" category="example-title">알림 목록입니다</block>
+  <block id="d712d7c120eeb1773e822680ae05e1e6" category="paragraph">심각한 심각도 경고:</block>
+  <block id="07924c9f11edc6dce661034be95eea23" category="list-text">집계 상태가 온라인 상태가 아닙니다</block>
+  <block id="cd8715e2c61c160919c471d458f34912" category="list-text">디스크 장애</block>
+  <block id="7fd2d7dd529b8399307eba295b61ba41" category="list-text">SnapMirror 지연 시간이 너무 깁니다</block>
+  <block id="86b6c911199fbbc3f1eb9bb48dbeac84" category="list-text">볼륨 상태가 오프라인 상태입니다</block>
+  <block id="251dfb413e6706021869a69f911a1722" category="list-text">사용된 볼륨 비율 위반입니다</block>
+  <block id="6dfc7a1d3e7177289844685485b60333" category="paragraph">EMS 경고:</block>
+  <block id="68312e4565de2800f938b104810df85e" category="list-text">바이러스 백신 서버가 사용 중입니다</block>
+  <block id="67138763af94cb16b8731cb643c19d09" category="list-text">AWS 자격 증명이 초기화되지 않았습니다</block>
+  <block id="3294e7fb98db2e274fe298085409b43d" category="list-text">클라우드 계층에 연결할 수 없습니다</block>
+  <block id="c368f13ac2010057caf5a5f737a1ff11" category="list-text">디스크 서비스가 중단되었습니다</block>
+  <block id="68e372a9533db9f1009167981ec6816a" category="list-text">디스크 쉘프 전원 공급 장치가 검색되었습니다</block>
+  <block id="cd15b8dfe06196bb36c3f01bf61bb243" category="list-text">디스크 쉘프의 전원 공급 장치가 제거되었습니다</block>
+  <block id="888cc30ee74334fe6bcc7da9683a9548" category="list-text">FabricPool 미러 복제 재동기화가 완료되었습니다</block>
+  <block id="b3f64f74cfa68b9d9273714d12abde1f" category="list-text">FabricPool 공간 사용 제한에 거의 도달했습니다</block>
+  <block id="1062a5c87c81d5399b321535a61500b2" category="list-text">FabricPool 공간 사용 제한에 도달했습니다</block>
+  <block id="17705794a65b95a1c8b74ac2210b8965" category="list-text">FC 타겟 포트 명령을 초과했습니다</block>
+  <block id="b6556b04e20f707436c67a1a56576275" category="list-text">스토리지 풀을 반환하지 못했습니다</block>
+  <block id="e53dabd176c531c7832b7012ce67b097" category="list-text">HA 인터커넥트가 다운되었습니다</block>
+  <block id="c6ab7e74ccdd427238b6e1efb492170f" category="list-text">LUN이 제거되었습니다</block>
+  <block id="3abb2131a440928b050c2e8edf69401d" category="list-text">LUN이 오프라인 상태입니다</block>
+  <block id="a8fb2d4668615c99a8d059affbe6cd22" category="list-text">본체 팬에 장애가 발생했습니다</block>
+  <block id="d68566c5b4b122118fbbd417a4264980" category="list-text">메인 유닛 팬이 경고 상태에 있습니다</block>
+  <block id="623b69fd62d13218cecda606713b9a46" category="list-text">사용자당 최대 세션 수를 초과했습니다</block>
+  <block id="62c9b4a4bb67fa65a7daa64a38e92bd7" category="list-text">파일당 최대 열기 시간을 초과했습니다</block>
+  <block id="6a85357206771eef22386a802fa758d6" category="list-text">MetroCluster 자동 계획되지 않은 전환이 비활성화되었습니다</block>
+  <block id="7c13e07c8bd8e6ff962c7cafd1d1a6dc" category="list-text">MetroCluster 모니터링</block>
+  <block id="e9c41a5d661c53796c05bc2c50b34f7a" category="list-text">NetBIOS 이름이 충돌합니다</block>
+  <block id="b9f7c1d1c6c8720b64e393cff38635a5" category="list-text">NFSv4 Sore 풀이 다 되었습니다</block>
+  <block id="a662add42742c1fa3d8a2948ec679396" category="list-text">노드 패닉</block>
+  <block id="673c9cb749a6c87d90677e56540016c5" category="list-text">노드 루트 볼륨 공간이 부족합니다</block>
+  <block id="74f22088830d5b73900d650afa41b6b6" category="list-text">관리자 공유가 없습니다</block>
+  <block id="642ca130535e44c6a6c23b26ff3e201f" category="list-text">응답하지 않는 바이러스 백신 서버입니다</block>
+  <block id="c2ef4ca2490676426d41004ed902e321" category="list-text">등록된 스캔 엔진이 없습니다</block>
+  <block id="810c9aeab7ad4d2e0b8d494a3c0fd4ac" category="list-text">Vscan 연결이 없습니다</block>
+  <block id="688c4dedde96dd6405687b605a738c6c" category="list-text">NVMe 네임스페이스가 파괴되었습니다</block>
+  <block id="e0fd74d205a2c0efeb1aa85ab995741f" category="list-text">NVMe 네임스페이스 오프라인</block>
+  <block id="ad0de762f84c09735c0f51f22e1b0751" category="list-text">NVMe 네임스페이스 온라인</block>
+  <block id="ff7b07c4a088c2e6514ed20c977afebc" category="list-text">NVMe-oF 라이센스 유예 기간 활성</block>
+  <block id="6911852fee5f58482b977dfa9e8b5a11" category="list-text">NVMe-oF 라이센스 유예 기간이 만료되었습니다</block>
+  <block id="34fc115596c046ddfb198b1a0918c528" category="list-text">NVMe-oF 라이센스 유예 기간 시작</block>
+  <block id="0af93bd4e12e413bd4f75779ca5fe3fc" category="list-text">NVRAM 배터리 부족</block>
+  <block id="13bd76a0c80421e4213cd354adec1f28" category="list-text">객체 저장소 호스트를 확인할 수 없습니다</block>
+  <block id="b07ff64f0fd66d1ca0444e966351a716" category="list-text">오브젝트 저장소 인터클러스터 LIF가 중지되었습니다</block>
+  <block id="14b95f6864656d1432576256c773fb6c" category="list-text">개체 저장소 서명이 일치하지 않습니다</block>
+  <block id="4b7fe47946422f99ed2eff8b286d5d5a" category="list-text">QoS 모니터 메모리가 최대 초과되었습니다</block>
+  <block id="42f9362e8f5c9f627583fcae61bb3009" category="list-text">랜섬웨어 활동이 감지되었습니다</block>
+  <block id="5a78f645e146f5884b1aeddc8a377465" category="list-text">스토리지 풀을 재배치하지 못했습니다</block>
+  <block id="900dfdc7aa5e2e4d21e8e383a7bc5695" category="list-text">ONTAP 중재자가 추가되었습니다</block>
+  <block id="117612d2385e596d10a53e879fd9c6d4" category="list-text">ONTAP 중재자에 액세스할 수 없습니다</block>
+  <block id="984ffe90674a334608f6dc29eea93d0f" category="list-text">ONTAP 중재자에 연결할 수 없습니다</block>
+  <block id="b13dc84e8bf07544983a0f1bcc9bacfd" category="list-text">ONTAP 중재자가 제거되었습니다</block>
+  <block id="7ca3fa8cbb818f2b752b180a8f6578c8" category="list-text">readdir 시간 초과</block>
+  <block id="74cd200ec793ce967454bab4df21e86f" category="list-text">SAN "active-active" 상태가 변경되었습니다</block>
+  <block id="6d298824911962a6173e9856bea08969" category="list-text">서비스 프로세서 하트비트가 누락되었습니다</block>
+  <block id="e31c7c626929cffcd19eb25ea3d48bcf" category="list-text">서비스 프로세서 하트비트가 중지되었습니다</block>
+  <block id="9e893917a086c9211a69e94cfdbc6de7" category="list-text">서비스 프로세서가 오프라인 상태입니다</block>
+  <block id="2eefb727adf8f00ed6c0c06f0de04bee" category="list-text">서비스 프로세서가 구성되지 않았습니다</block>
+  <block id="fa95406e3f6be61a90c80d07495392ab" category="list-text">섀도 복사를 수행하지 못했습니다</block>
+  <block id="2e6c8588eca8579ea3d901edba5187c5" category="list-text">낮은 전력을 공급받는 FC 대상 어댑터의 SFP</block>
+  <block id="e3f46f77f673c669dbf7591bf3714534" category="list-text">낮은 전력을 전송하는 FC 대상 어댑터의 SFP</block>
+  <block id="87bcf69ffc1341c3e738e6f5f0829b89" category="list-text">쉘프 팬에 장애가 발생했습니다</block>
+  <block id="129eccbd447ee5ec6db178923e1e891b" category="list-text">SMBC CA 인증서가 만료되었습니다</block>
+  <block id="542f0de59690111da4c9cfe4b7839228" category="list-text">SMBC CA 인증서가 만료됩니다</block>
+  <block id="fcfb955a42ea6727cf9655dfcbc95b29" category="list-text">SMBC 클라이언트 인증서가 만료되었습니다</block>
+  <block id="6ef327b672c485123c9bcc462d256668" category="list-text">SMBC 클라이언트 인증서가 만료됩니다</block>
+  <block id="2cb36dc8e68ee54aec697f86f2d4b12d" category="list-text">SMBC 관계가 동기화되지 않았습니다</block>
+  <block id="8a892c6a7fdca0a74894c6fd035d9f73" category="list-text">SMBC 서버 인증서가 만료되었습니다</block>
+  <block id="11646092abadafa9bf54db871c93d36a" category="list-text">SMBC 서버 인증서가 만료됩니다</block>
+  <block id="357da3c15f5b4166ed1b9756ef219e71" category="list-text">SnapMirror 관계가 동기화되지 않았습니다</block>
+  <block id="ae68c6c4c6cae7459282877916f7239d" category="list-text">스토리지 스위치 전원 공급 장치에 장애가 발생했습니다</block>
+  <block id="5b18b77cd9a23623241f767e7e3dda1f" category="list-text">스토리지 VM 안티 랜섬웨어 모니터링</block>
+  <block id="f227b1f80874035c71dc8b251f697d06" category="list-text">스토리지 VM을 중지했습니다</block>
+  <block id="4fc7fee1a16781be47a8fcb65bbf6c32" category="list-text">메인 유닛 팬 고장 때문에 시스템을 작동할 수 없습니다</block>
+  <block id="df9077cd90f3562314293fe500b45638" category="list-text">CIFS 인증이 너무 많습니다</block>
+  <block id="211ffae8cf271f4086db6aa84fe1dcff" category="list-text">할당되지 않은 디스크</block>
+  <block id="5d20854d3722e028d9bf19a7825780ec" category="list-text">관리자 공유에 대한 권한이 없는 사용자 액세스 권한</block>
+  <block id="fd336287253648f0aff675505ba26228" category="list-text">바이러스가 감지되었습니다</block>
+  <block id="ffeaca4f7d6a46d7049fc8e2b7f0b27b" category="list-text">볼륨 안티 랜섬웨어 모니터링</block>
+  <block id="787c13bd5678ea2fd13caed9c3d7f793" category="list-text">볼륨 자동 크기 조정이 성공했습니다</block>
+  <block id="70e7847ce31f3a07ce7dbe2cac0c55bf" category="list-text">볼륨이 오프라인 상태입니다</block>
+  <block id="d963b659cc2c03f1af4ded1f17740e4f" category="list-text">볼륨이 제한되어 있습니다</block>
+  <block id="e60fdbc6a294498300f49aa127139a42" category="inline-link">용량, 보안 및 구성 문제에 대한 System Manager의 통찰력</block>
+  <block id="aa234240d0a0cda8353d19805476de1b" category="paragraph">ONTAP 경고에 대한 자세한 내용은 에서 ONTAP 설명서 및 System Manager 인사이트를 참조하십시오.<block ref="b77ce041c81545bf6290dc1fe3f366a7" category="inline-link-rx"></block></block>
+  <block id="62ee36e144821eacbed3c81b0f0497c8" category="section-title">ONTAP 스토리지 문제를 확인하십시오</block>
+  <block id="069f2dbaf4ab6cd3493075c1ed095e12" category="paragraph">검색이 완료되면 ONTAP 환경의 알림 목록이 경고 목록 페이지에 표시됩니다.</block>
+  <block id="c4e8a37d21324f2e04c75f3371485f1f" category="paragraph">이벤트가 발생하는 것과 이를 표시하는 BlueXP  경고 사이에 지연이 있을 수 있습니다.</block>
+  <block id="edf8cb82991154f2e9d942bdccaeef0a" category="list-text">경고 목록 페이지에서 다음 중 하나를 보고 수행할 수 있습니다.</block>
+  <block id="688a1396b578f03d228e2eebc7a41cae" category="list-text">열의 위쪽 또는 아래쪽 화살표를 클릭하여 정렬 순서를 변경합니다.</block>
+  <block id="b7fb9d0113e25b01750477e170f85124" category="list-text">열의 필터를 변경하여 원하는 정보만 표시합니다.</block>
+  <block id="2003e55a5e25452cfa4bd9a58d57b351" category="admonition">예를 들어 용량과 관련된 알림만 표시할 수 있습니다. 이렇게 하려면 Impact Area(영향 영역) 열에서 필터 아이콘을 클릭하고 * Capacity(용량) * 를 선택한 다음 * Apply(적용) * 를 선택합니다.</block>
+  <block id="0f7a9a7a2a6073b4490fabb339f41057" category="inline-image-macro">영향 영역 필터를 보여 주는 경고 페이지</block>
+  <block id="4df898e17ef9f4529b1a38042a44e337" category="paragraph"><block ref="4df898e17ef9f4529b1a38042a44e337" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="965f7cc3cce0fc10d5fd67a7338c6f10" category="list-text">알림 정보가 포함된 CSV 파일을 다운로드합니다.</block>
+  <block id="b2bb87d2f0e54538ffcdb7880272c3c0" category="paragraph">최대 1000개의 경고를 다운로드할 수 있습니다. 이 파일에는 설정된 필터를 기반으로 하는 데이터가 포함됩니다.</block>
+  <block id="4911a76281812d9019d7ede766d4ea02" category="list-text">경고를 선택하고 해당 클러스터의 알림 세부 정보로 드릴다운합니다. 을 <block ref="b1ec3ab83585d2abf1c96eb1dde7ca35" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="af5d0c21da9f42662eda147aaaa3511a" category="summary">BlueXP  경고를 사용하여 워크로드 상태를 확인하고 워크로드를 보호할 수 있습니다.</block>
+  <block id="6ba57e842cdd79e47a1b460479b59e4e" category="doc">BlueXP  알림을 사용합니다</block>
+  <block id="9e8c1c9ce04126b867bd0693e89863b1" category="paragraph">BlueXP  경고를 사용하면 System Manager에 직접 연결되는 링크를 통해 스토리지 문제를 확인하고 세부 정보를 확인할 수 있습니다.</block>
+  <block id="80fa54cf61509d05cee17d35aa111523" category="inline-link-macro">경고 목록 페이지에서 스토리지 문제나 잠재적 위험을 확인합니다</block>
+  <block id="bada944ff97ccc6bdb03a0eefe48c7b0" category="list-text"><block ref="100690e5bc3f66329368008c6eec575d" category="inline-link-macro-rx"></block>..</block>
+  <block id="7bd1999eaf2368f9b8f1dd868f9e9d4d" category="inline-link-macro">System Manager에서 연결된 경고 세부 정보를 봅니다</block>
+  <block id="71abcd292cc325c2b4ac5f4d9147224d" category="list-text"><block ref="71abcd292cc325c2b4ac5f4d9147224d" category="inline-link-macro-rx"></block></block>
+  <block id="601af684c92efdad54a57f36be1e84f2" category="summary">BlueXP  경고는 용량, 성능, 가용성 및 보안과 관련하여 NetApp ONTAP 환경의 문제 또는 잠재적 위험을 볼 수 있는 서비스입니다. 서비스를 사용하면 NetApp System Manager를 사용하여 세부 정보를 상세히 살펴볼 수 있습니다.</block>
+  <block id="d0f2765e5de3103a5c432ec160dff29f" category="doc">BlueXP  알림에 대해 자세히 알아봅니다</block>
+  <block id="6babf54700fe3eb9bf3ca54fc0d1fb18" category="paragraph">BlueXP  경고는 표준 BlueXP  커넥터를 사용하여 NetApp 온프레미스 ONTAP 환경의 문제나 잠재적인 위험을 볼 수 있도록 지원하는 서비스입니다. 서비스를 사용하면 NetApp System Manager를 사용하여 세부 정보를 상세히 살펴볼 수 있습니다.</block>
+  <block id="a9dc86219b3c5f9f2b66e9d377f29a7f" category="section-title">BlueXP  알림으로 수행할 수 있는 작업</block>
+  <block id="c455bdd92f069a5115cf088b2dabcacc" category="paragraph">BlueXP  경고 서비스를 통해 ONTAP 스토리지 환경의 위험 또는 잠재적 위험에 대한 정보를 지속적으로 얻을 수 있습니다. 서비스에 일부 비 EMS 경고와 일부 EMS 경고가 표시됩니다. BlueXP  알림 서비스는 다음과 같은 심각도 및 영향 영역에 대한 정보를 제공합니다.</block>
+  <block id="6f8378cd5e88ebcc5f99f344c6d22de6" category="list-text">* 영향 영역 *: 용량, 성능, 보호, 가용성, 보안, 구성</block>
+  <block id="3c62cdeee21c6a2170aedc780bd7fc03" category="admonition">BlueXP  UI의 오른쪽 상단에 있는 알림 옵션은 BlueXP 가 수행하는 작업의 상태를 모니터링하여 해결해야 하는 문제를 식별할 수 있도록 합니다. 이러한 알림을 이메일로 보낼 수 있습니다. 알림 옵션에는 BlueXP  알림 서비스의 알림이 포함되지 않습니다.</block>
+  <block id="b3bfdc18d5a19085c6964cb4558c89b5" category="section-title">BlueXP  경고 사용의 이점</block>
+  <block id="89658a5893663786a5a3b0365a186901" category="paragraph">BlueXP  알림은 다음과 같은 이점을 제공합니다.</block>
+  <block id="f7e430f46106032cfbe3b93ecd7ffbf8" category="list-text">클러스터 전체의 ONTAP 스토리지에 대한 알림을 받습니다.</block>
+  <block id="c036c9564723f87e6682ea3f542c999a" category="list-text">다른 서비스에 사용하는 것과 동일한 BlueXP  UI에서 알림을 봅니다.</block>
+  <block id="811073dacb65f03c311b21e5d5357881" category="list-text">ONTAP 클러스터에 대한 알림 세부 정보 -- BlueXP  알림에서 시작하여 NetApp System Manager에서 세부 정보를 확인합니다.</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
+  <block id="82cf93c6b22e730b302286dee304e8cc" category="paragraph">전체 버전의 BlueXP  알림은 NetApp ONTAP 라이센스와 함께 사용할 수 있습니다.</block>
+  <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">라이센싱</block>
+  <block id="1b083639d38de1b116aea6c5558968ec" category="paragraph">BlueXP  알림 서비스에는 NetApp ONTAP 9 .10 이상의 라이센스가 필요합니다.</block>
+  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link-macro">라이센스를 설정합니다</block>
+  <block id="d69945d07ffe69d68b278fa3f6ee11ac" category="paragraph">이 서비스는 BlueXP  표준(공용) 모드에서만 구축할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="271bc4c83b3d27b2a7fc60eb23418118" category="inline-link-macro-rx"></block>.</block>
+  <block id="55a90d444e30ddc01cd8a8da27cd9018" category="section-title">BlueXP  알림의 작동 방식</block>
+  <block id="3e552726fea4952e3fd397f2cbf69243" category="paragraph">BlueXP  알림 서비스는 BlueXP 의 핵심 구성 요소입니다. BlueXP  경고 서비스는 ONTAP 클러스터를 모니터링하고 ONTAP로부터 경고 데이터를 수신합니다.</block>
+  <block id="78097856f6f945c9619179338ebbf597" category="paragraph">BlueXP  경고는 BlueXP  SaaS 환경에서만 사용할 수 있습니다. 로컬 커넥터 UI에서는 사용할 수 없습니다.</block>
+  <block id="53fa8df095671f897c8cbcd13ce182b1" category="section-title">지원되는 작업 환경 및 데이터 소스</block>
+  <block id="3a3da3adbe7a7e42b69c675297f957dd" category="paragraph">BlueXP  경고를 사용하여 다음 작업 환경 및 데이터 소스의 문제를 확인합니다.</block>
+  <block id="aeb2662989e88ee6d23e4231af6bb329" category="paragraph">* 지원되는 작업 환경 *</block>
+  <block id="37d5e573f87a34df6bc471978f6feabf" category="paragraph">온프레미스 ONTAP NAS 또는 SAN 작업 환경이 지원됩니다.</block>
+  <block id="8c3fbb6cc8eb009073e41422c8d38207" category="paragraph">현재 Cloud Volumes ONTAP 작업 환경은 지원되지 않습니다.</block>
+  <block id="7133c14b211d52731ad6f21655c0ec9b" category="paragraph">* 지원되는 데이터 소스 *</block>
+  <block id="d942794721fac44adaf190fc08c9e8a7" category="paragraph">이 서비스는 ONTAP에서 발생하는 특정 이벤트에 대한 알림을 제공합니다. EMS 및 메트릭 기반 알림의 조합입니다.</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
+  <block id="1c8c9500f35cf575beaf6a28dc62ccf5" category="summary">BlueXP  알림의 새로운 기능에 대해 알아봅니다.</block>
+  <block id="30379f2eca857be65607378fb82b2e76" category="doc">릴리스 노트: BlueXP 의 새로운 기능 경고 보호</block>
+  <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024년 10월 7일</block>
+  <block id="32981b0c6558eec412787b4c28c9f7a5" category="paragraph">이번 BlueXP  알림의 초기 릴리즈에는 다음과 같은 기능이 포함되어 있습니다.</block>
+  <block id="d75b9d6acc7b490b5df3a8425ace3e5a" category="list-text">* BlueXP  알림 목록 페이지 *: 용량이 낮거나 성능이 낮은 ONTAP 클러스터를 신속하게 식별하고 가용성 범위를 측정하며 보안 위험을 식별할 수 있습니다. 용량, 성능, 보호, 가용성, 보안 및 구성과 관련된 경고를 볼 수 있습니다.</block>
+  <block id="335c0f5b63e966d180738ce07c85dc3f" category="list-text">* 경고 세부 정보 * : 경고 세부 정보로 드릴다운하고 권장 사항을 찾을 수 있습니다.</block>
+  <block id="963a0580f34d0876630a188f398484de" category="list-text">* System Manager에 연결된 클러스터 세부 정보 보기 *: BlueXP  알림을 사용하면 ONTAP 스토리지 환경과 연결된 알림을 보고 NetApp System Manager에 연결된 세부 정보를 확인할 수 있습니다.</block>
+  <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block>..</block>
+  <block id="8a158ef2e09da6cbce36c63b2be71df9" category="sidebar">BlueXP  경고는 용량, 성능, 보호, 가용성 및 보안과 관련하여 NetApp ONTAP 환경의 문제 또는 잠재적 위험을 볼 수 있는 서비스입니다. 서비스를 사용하면 알림 세부 정보를 상세히 파악하고 NetApp System Manager에 연결된 클러스터 정보를 볼 수 있습니다.</block>
+  <block id="65bb7ee15d3b1e07670d846d217c47d4" category="sidebar">BlueXP  경고 문서</block>
+  <block id="9b28031891e79a06f16c64fa003290dd" category="sidebar">BlueXP  경고는 NetApp ONTAP 환경의 문제 또는 잠재적 위험을 볼 수 있는 서비스입니다. 서비스를 사용하면 NetApp System Manager를 사용하여 알림 세부 정보를 상세히 파악하고 클러스터 정보를 볼 수 있습니다.</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
+  <block id="0008349dbba5d63a11fcca4bd3de0c2d" category="sidebar">BlueXP  알림의 새로운 기능</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="sidebar">필수 구성 요소</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">빠른 시작</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">FAQ 를 참조하십시오</block>
+  <block id="719b574fab4bde1fa0258a23a1bce1bf" category="sidebar">BlueXP  알림 개요 사용</block>
+  <block id="f1d6603348ae1d768d44db0a4ef65c7c" category="sidebar">알림 목록 페이지를 사용하여 워크로드 상태를 확인합니다</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
+  <block id="a5f2ae7ab44d436991bfcc0230947d07" category="sidebar">BlueXP  경고 문서</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
+  <block id="17b76c30a93a18ec82fdbf45ed64d83a" category="sidebar">ONTAP 스토리지의 잠재적 위험 보기</block>
+  <block id="167683e364859c21a89f3dbb8bbd29b4" category="sidebar">스토리지 환경에서 알림을 봅니다</block>
+</blocks>
