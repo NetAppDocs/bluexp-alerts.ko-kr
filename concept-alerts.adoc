@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-alerts.html 
 keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, bluexp alerts 
-summary: BlueXP  경고는 용량, 성능, 가용성 및 보안과 관련하여 NetApp ONTAP 환경의 문제 또는 잠재적 위험을 볼 수 있는 서비스입니다. 서비스를 사용하면 NetApp System Manager를 사용하여 세부 정보를 상세히 살펴볼 수 있습니다. 
+summary: BlueXP  경고는 용량, 성능, 가용성 및 보안과 관련하여 NetApp ONTAP 환경의 문제 또는 잠재적 위험을 볼 수 있는 서비스입니다. 서비스를 사용하면 ONTAP System Manager를 사용하여 세부 정보를 상세히 살펴볼 수 있습니다. 
 ---
 = BlueXP  알림에 대해 자세히 알아봅니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP  경고는 용량, 성능, 가용성 및 보안과 관련하여
 
 
 [role="lead"]
-BlueXP  경고는 표준 BlueXP  커넥터를 사용하여 NetApp 온프레미스 ONTAP 환경의 문제나 잠재적인 위험을 볼 수 있도록 지원하는 서비스입니다. 서비스를 사용하면 NetApp System Manager를 사용하여 세부 정보를 상세히 살펴볼 수 있습니다.
+BlueXP  경고는 표준 BlueXP  커넥터를 사용하여 NetApp 온프레미스 ONTAP 환경의 문제나 잠재적인 위험을 볼 수 있도록 지원하는 서비스입니다. 서비스를 사용하면 ONTAP System Manager를 사용하여 세부 정보를 상세히 살펴볼 수 있습니다.
 
 
 
