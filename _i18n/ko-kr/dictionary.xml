@@ -242,8 +242,6 @@
   <block id="82cf93c6b22e730b302286dee304e8cc" category="paragraph">전체 버전의 BlueXP  알림은 NetApp ONTAP 라이센스와 함께 사용할 수 있습니다.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">라이센싱</block>
   <block id="1b083639d38de1b116aea6c5558968ec" category="paragraph">BlueXP  알림 서비스에는 NetApp ONTAP 9 .10 이상의 라이센스가 필요합니다.</block>
-  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link-macro">라이센스를 설정합니다</block>
-  <block id="d69945d07ffe69d68b278fa3f6ee11ac" category="paragraph">이 서비스는 BlueXP  표준(공용) 모드에서만 구축할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="271bc4c83b3d27b2a7fc60eb23418118" category="inline-link-macro-rx"></block>.</block>
   <block id="55a90d444e30ddc01cd8a8da27cd9018" category="section-title">BlueXP  알림의 작동 방식</block>
   <block id="3e552726fea4952e3fd397f2cbf69243" category="paragraph">BlueXP  알림 서비스는 BlueXP 의 핵심 구성 요소입니다. BlueXP  경고 서비스는 ONTAP 클러스터를 모니터링하고 ONTAP로부터 경고 데이터를 수신합니다.</block>
   <block id="78097856f6f945c9619179338ebbf597" category="paragraph">BlueXP  경고는 BlueXP  SaaS 환경에서만 사용할 수 있습니다. 로컬 커넥터 UI에서는 사용할 수 없습니다.</block>
@@ -299,4 +297,5 @@
   <block id="864130dd293829108709c2327b91d445" category="paragraph">BlueXP  경고는 표준 BlueXP  커넥터를 사용하여 NetApp 온프레미스 ONTAP 환경의 문제나 잠재적인 위험을 볼 수 있도록 지원하는 서비스입니다. 서비스를 사용하면 ONTAP System Manager를 사용하여 세부 정보를 상세히 살펴볼 수 있습니다.</block>
   <block id="a138b80b6963a03eb4d692dbdc025e3e" category="sidebar">BlueXP  경고는 용량, 성능, 보호, 가용성 및 보안과 관련하여 NetApp ONTAP 환경의 문제 또는 잠재적 위험을 볼 수 있는 서비스입니다. 서비스를 사용하면 알림 세부 정보를 상세히 파악하고 ONTAP System Manager에 연결된 클러스터 정보를 볼 수 있습니다.</block>
   <block id="164a30a809f9f6485699e82e4c81d60c" category="sidebar">BlueXP  경고는 NetApp ONTAP 환경의 문제 또는 잠재적 위험을 볼 수 있는 서비스입니다. 서비스를 사용하면 ONTAP System Manager를 사용하여 알림 세부 정보를 상세히 파악하고 클러스터 정보를 볼 수 있습니다.</block>
+  <block id="83e69dcb76418af8dc10c3db810ded80" category="paragraph">이 서비스는 BlueXP  표준(공용) 모드에서만 구축할 수 있습니다.</block>
 </blocks>
