@@ -12,8 +12,8 @@ summary: BlueXP  경고를 사용하여 워크로드 상태를 확인하고 워
 
 
 [role="lead"]
-BlueXP  경고를 사용하면 System Manager에 직접 연결되는 링크를 통해 스토리지 문제를 확인하고 세부 정보를 확인할 수 있습니다.
+BlueXP  경고를 사용하면 ONTAP System Manager에 직접 연결되는 링크를 통해 스토리지 문제를 확인하고 세부 정보를 확인할 수 있습니다.
 
 * link:alerts-use-dashboard.html["경고 목록 페이지에서 스토리지 문제나 잠재적 위험을 확인합니다"]..
-* link:alerts-use-alerts.html["System Manager에서 연결된 경고 세부 정보를 봅니다"]
+* link:alerts-use-alerts.html["ONTAP System Manager에 연결된 경고 세부 정보를 봅니다"]
 

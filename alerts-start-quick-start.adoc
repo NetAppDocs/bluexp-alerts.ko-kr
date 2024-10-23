@@ -28,5 +28,5 @@ link:alerts-start-setup.html["BlueXP에서 Connector를 구성합니다"]..
 
 [role="quick-margin-list"]
 * link:alerts-use-dashboard.html["경고 목록 페이지에서 스토리지 문제와 잠재적 위험을 확인합니다"]..
-* link:alerts-use-alerts.html["System Manager에서 경고 세부 정보를 봅니다"]..
+* link:alerts-use-alerts.html["ONTAP System Manager에서 경고 세부 정보를 봅니다"]..
 

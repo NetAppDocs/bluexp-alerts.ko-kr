@@ -16,7 +16,9 @@ sidebar:
   - title: BlueXP  경고 문서
     url: "/index.html"
   - title: 릴리스 정보
-    url: "/whats-new.html"
+    entries:
+    - title: BlueXP  알림의 새로운 기능
+      url: "/whats-new.html"
   - title: 시작하십시오
     entries:
     - title: BlueXP  알림에 대해 자세히 알아봅니다
