@@ -262,8 +262,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="1c8c9500f35cf575beaf6a28dc62ccf5" category="summary">BlueXP  알림의 새로운 기능에 대해 알아봅니다.</block>
   <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024년 10월 7일</block>
-  <block id="32981b0c6558eec412787b4c28c9f7a5" category="paragraph">이번 BlueXP  알림의 초기 릴리즈에는 다음과 같은 기능이 포함되어 있습니다.</block>
-  <block id="335c0f5b63e966d180738ce07c85dc3f" category="list-text">* 경고 세부 정보 * : 경고 세부 정보로 드릴다운하고 권장 사항을 찾을 수 있습니다.</block>
   <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block>..</block>
   <block id="65bb7ee15d3b1e07670d846d217c47d4" category="sidebar">BlueXP  경고 문서</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
@@ -296,7 +294,9 @@
   <block id="ad29d7223b052b52094346c5131f1f7e" category="inline-link-macro">ONTAP System Manager에 연결된 경고 세부 정보를 봅니다</block>
   <block id="7c6bc72b6c4331f5d897fabdaf57cdec" category="list-text"><block ref="7c6bc72b6c4331f5d897fabdaf57cdec" category="inline-link-macro-rx"></block></block>
   <block id="515706dac8e783689b6183aa91b5dc74" category="doc">BlueXP  경고 의 새로운 기능</block>
-  <block id="221e1ce85a4c0e9e170e711608695972" category="list-text">* BlueXP  alerts list page *: 용량이 부족하거나 성능이 낮은 ONTAP 클러스터를 신속하게 식별하고 가용성 범위를 측정하며 보안 위험을 식별할 수 있습니다. 용량, 성능, 보호, 가용성, 보안 및 구성과 관련된 경고를 볼 수 있습니다.</block>
-  <block id="584c54dd31b512867535ecfbc6397a6f" category="list-text">* System Manager에 연결된 클러스터 세부 정보 보기 *: BlueXP  알림을 사용하면 ONTAP 스토리지 환경과 연결된 알림을 보고 ONTAP System Manager에 연결된 세부 정보를 확인할 수 있습니다.</block>
-  <block id="1dd7164ccb0d19b759cbac7ce9ee7183" category="sidebar">BlueXP  알림의 새로운 기능</block>
+  <block id="3108a0619eec0e2ef9c6c5bd796bbf0d" category="paragraph">용량이 낮거나 성능이 낮은 ONTAP 클러스터를 신속하게 식별하고, 가용성 범위를 판단하며, 보안 위험을 식별할 수 있습니다. 용량, 성능, 보호, 가용성, 보안 및 구성과 관련된 경고를 볼 수 있습니다.</block>
+  <block id="907b4f5ff0a11b28375c092b0b876c3e" category="section-title">경고 세부 정보</block>
+  <block id="2c132bb868e25bdbc509ab83d2436d71" category="paragraph">알림 세부 정보를 상세히 파악하고 권장 사항을 찾을 수 있습니다.</block>
+  <block id="b361027502c50a2e2c7efbe96a5720bf" category="section-title">System Manager에 연결된 클러스터 세부 정보를 봅니다</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
 </blocks>

@@ -1,24 +1,6 @@
----
-sidebar: sidebar 
-permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ontap, bluexp, system manager' 
-summary: BlueXP  알림의 새로운 기능에 대해 알아봅니다. 
----
-= BlueXP  경고 의 새로운 기능
-:hardbreaks:
+= BlueXP  알림 목록 페이지
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
-
-[role="lead"]
-BlueXP  알림의 새로운 기능에 대해 알아봅니다.
-
-
-
-== 2024년 10월 7일
 
 
 
