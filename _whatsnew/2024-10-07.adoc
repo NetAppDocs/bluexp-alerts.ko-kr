@@ -16,7 +16,7 @@
 
 
 
-=== System Manager에 연결된 클러스터 세부 정보를 봅니다
+=== ONTAP System Manager에 연결된 클러스터 세부 정보를 봅니다
 
 BlueXP  경고를 사용하면 ONTAP 스토리지 환경과 연결된 경고를 확인하고 ONTAP System Manager에 연결된 세부 정보를 드릴다운할 수 있습니다.
 

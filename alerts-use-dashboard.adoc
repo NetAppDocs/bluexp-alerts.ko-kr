@@ -139,7 +139,7 @@ EMS 경고:
 
 
 ====
-ONTAP 경고에 대한 자세한 내용은 에서 ONTAP 설명서 및 System Manager 인사이트를 참조하십시오. https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["용량, 보안 및 구성 문제에 대한 System Manager의 통찰력"^]
+ONTAP 경고에 대한 자세한 내용은 에서 ONTAP 설명서 및 ONTAP System Manager 인사이트를 참조하십시오. https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["용량, 보안 및 구성 문제에 대한 ONTAP System Manager의 통찰력"^]
 
 
 

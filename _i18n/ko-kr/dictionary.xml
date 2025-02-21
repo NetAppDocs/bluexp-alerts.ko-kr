@@ -60,7 +60,6 @@
   <block id="a66b5f7e17e36a58b03ec77382eb6743" category="list-text">리소스 검색을 위한 조직 관리자 Privileges가 있는 조직의 BlueXP  사용자</block>
   <block id="801e5ac526198ee67b36c61b75c65eab" category="inline-link">표준 BlueXP 요구사항</block>
   <block id="5b4e347dbf978618d47c067b87ad3fe2" category="list-text"><block ref="5b4e347dbf978618d47c067b87ad3fe2" category="inline-link-rx"></block></block>
-  <block id="e9b7b72938a53a4398858e7a161efbfb" category="summary">몇 단계로 NetApp BlueXP  알림 서비스를 시작하십시오.</block>
   <block id="4693ecf07b719f1a075e0e08b806e1d6" category="doc">BlueXP  알림을 빠르게 시작할 수 있습니다</block>
   <block id="6d3b1e3c658d935abf3a5e7434bd4c1b" category="paragraph">다음은 BlueXP  알림을 시작하는 데 필요한 단계에 대한 개요입니다. 각 단계의 링크를 클릭하면 자세한 내용을 제공하는 페이지로 이동합니다.</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
@@ -200,8 +199,6 @@
   <block id="787c13bd5678ea2fd13caed9c3d7f793" category="list-text">볼륨 자동 크기 조정이 성공했습니다</block>
   <block id="70e7847ce31f3a07ce7dbe2cac0c55bf" category="list-text">볼륨이 오프라인 상태입니다</block>
   <block id="d963b659cc2c03f1af4ded1f17740e4f" category="list-text">볼륨이 제한되어 있습니다</block>
-  <block id="e60fdbc6a294498300f49aa127139a42" category="inline-link">용량, 보안 및 구성 문제에 대한 System Manager의 통찰력</block>
-  <block id="aa234240d0a0cda8353d19805476de1b" category="paragraph">ONTAP 경고에 대한 자세한 내용은 에서 ONTAP 설명서 및 System Manager 인사이트를 참조하십시오.<block ref="b77ce041c81545bf6290dc1fe3f366a7" category="inline-link-rx"></block></block>
   <block id="62ee36e144821eacbed3c81b0f0497c8" category="section-title">ONTAP 스토리지 문제를 확인하십시오</block>
   <block id="069f2dbaf4ab6cd3493075c1ed095e12" category="paragraph">검색이 완료되면 ONTAP 환경의 알림 목록이 경고 목록 페이지에 표시됩니다.</block>
   <block id="c4e8a37d21324f2e04c75f3371485f1f" category="paragraph">이벤트가 발생하는 것과 이를 표시하는 BlueXP  경고 사이에 지연이 있을 수 있습니다.</block>
@@ -227,7 +224,6 @@
   <block id="89658a5893663786a5a3b0365a186901" category="paragraph">BlueXP  알림은 다음과 같은 이점을 제공합니다.</block>
   <block id="f7e430f46106032cfbe3b93ecd7ffbf8" category="list-text">클러스터 전체의 ONTAP 스토리지에 대한 알림을 받습니다.</block>
   <block id="c036c9564723f87e6682ea3f542c999a" category="list-text">다른 서비스에 사용하는 것과 동일한 BlueXP  UI에서 알림을 봅니다.</block>
-  <block id="811073dacb65f03c311b21e5d5357881" category="list-text">ONTAP 클러스터에 대한 알림 세부 정보 -- BlueXP  알림에서 시작하여 NetApp System Manager에서 세부 정보를 확인합니다.</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="82cf93c6b22e730b302286dee304e8cc" category="paragraph">전체 버전의 BlueXP  알림은 NetApp ONTAP 라이센스와 함께 사용할 수 있습니다.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">라이센싱</block>
@@ -297,6 +293,10 @@
   <block id="3108a0619eec0e2ef9c6c5bd796bbf0d" category="paragraph">용량이 낮거나 성능이 낮은 ONTAP 클러스터를 신속하게 식별하고, 가용성 범위를 판단하며, 보안 위험을 식별할 수 있습니다. 용량, 성능, 보호, 가용성, 보안 및 구성과 관련된 경고를 볼 수 있습니다.</block>
   <block id="907b4f5ff0a11b28375c092b0b876c3e" category="section-title">경고 세부 정보</block>
   <block id="2c132bb868e25bdbc509ab83d2436d71" category="paragraph">알림 세부 정보를 상세히 파악하고 권장 사항을 찾을 수 있습니다.</block>
-  <block id="b361027502c50a2e2c7efbe96a5720bf" category="section-title">System Manager에 연결된 클러스터 세부 정보를 봅니다</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="9ba3a5a376a4241ee4847ae13742a741" category="section-title">ONTAP System Manager에 연결된 클러스터 세부 정보를 봅니다</block>
+  <block id="a4598a7400565176f635033fb26b11d1" category="summary">몇 단계로 BlueXP  알림 서비스를 시작하십시오.</block>
+  <block id="79f36a1cf2d28dc09a5c06d96f5fc526" category="inline-link">용량, 보안 및 구성 문제에 대한 ONTAP System Manager의 통찰력</block>
+  <block id="b433a03cbe41f57ebb306c3f7c73f769" category="paragraph">ONTAP 경고에 대한 자세한 내용은 에서 ONTAP 설명서 및 ONTAP System Manager 인사이트를 참조하십시오.<block ref="54212393114a0de7994bf970936414f9" category="inline-link-rx"></block></block>
+  <block id="5dd402ee76aade36a9da6304ebc2bd25" category="list-text">ONTAP 클러스터에 대한 알림 세부 정보 -- BlueXP  알림에서 시작하여 ONTAP System Manager에서 세부 정보를 확인합니다.</block>
 </blocks>

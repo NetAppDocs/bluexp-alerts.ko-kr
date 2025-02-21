@@ -37,7 +37,7 @@ BlueXP  알림은 다음과 같은 이점을 제공합니다.
 
 * 클러스터 전체의 ONTAP 스토리지에 대한 알림을 받습니다.
 * 다른 서비스에 사용하는 것과 동일한 BlueXP  UI에서 알림을 봅니다.
-* ONTAP 클러스터에 대한 알림 세부 정보 -- BlueXP  알림에서 시작하여 NetApp System Manager에서 세부 정보를 확인합니다.
+* ONTAP 클러스터에 대한 알림 세부 정보 -- BlueXP  알림에서 시작하여 ONTAP System Manager에서 세부 정보를 확인합니다.
 
 
 
